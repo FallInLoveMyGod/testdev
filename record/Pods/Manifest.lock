@@ -1,0 +1,20 @@
+PODS:
+  - NELivePlayer (1.7.0)
+  - NMCLiveStreaming (3.1.2)
+
+DEPENDENCIES:
+  - NELivePlayer (~> 1.7.0)
+  - NMCLiveStreaming
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NELivePlayer
+    - NMCLiveStreaming
+
+SPEC CHECKSUMS:
+  NELivePlayer: b48dbed884391fbd878e780b0863a68e8ca166fa
+  NMCLiveStreaming: 616a02cb642be80fc89122f7c82b9c7c7fb4f745
+
+PODFILE CHECKSUM: 26740c0554d6922bfe52d4753a038e8ceef043c3
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target 'record' do
+pod 'NMCLiveStreaming'
+pod 'NELivePlayer', '~> 1.7.0'
+end

@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7D233AFF906685CCB4A2AA48CD2FD0 /* NELivePlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4FC0D9568E78CB3978DD6673818742D0 /* Build configuration list for PBXAggregateTarget "NELivePlayer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = NELivePlayer;
+		};
+		A2428B8BA54B8374022EDD41143A8642 /* NMCLiveStreaming */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 218DDD5C03EF114C71331600BB24FB02 /* Build configuration list for PBXAggregateTarget "NMCLiveStreaming" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = NMCLiveStreaming;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		78F0383389B2264472D8151DD19B029D /* Pods-record-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B51C98D7BDABF0864A4589080BF4C7 /* Pods-record-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBAC0F31087C11A35015529C0298B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7D233AFF906685CCB4A2AA48CD2FD0;
+			remoteInfo = NELivePlayer;
+		};
+		C299FA93BD308AB081F7E44BAAEE858B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2428B8BA54B8374022EDD41143A8642;
+			remoteInfo = NMCLiveStreaming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A43A121AF47E56D2B80D8C355B9294 /* NELivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NELivePlayerFramework.framework; path = LivePlayer_iOS_SDK_v1.7.0/NELivePlayerFramework.framework; sourceTree = "<group>"; };
+		25C90708A99BAEDF4F58AE2E7F68AF4F /* Pods-record-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-record-resources.sh"; sourceTree = "<group>"; };
+		2F09EA25021EC3956DA604202B420DD3 /* libPods-record.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-record.a"; path = "libPods-record.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F4F706743353AD5C4BA8E7D4D56ADE /* Pods-record.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-record.release.xcconfig"; sourceTree = "<group>"; };
+		4DB5D8299394C6E2C234FD10BB33F778 /* NMCLiveStreaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMCLiveStreaming.framework; path = NormalSDK/NMCLiveStreaming.framework; sourceTree = "<group>"; };
+		67DB8482339638F19353B2F22D244420 /* Pods-record-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-record-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72132E46BEA6027C74FA3953C1281B8C /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NMCVideoFilter.bundle; path = NormalSDK/NMCVideoFilter.bundle; sourceTree = "<group>"; };
+		ADF7420C3AC1B20504D1EFB974BE66C4 /* Pods-record-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-record-acknowledgements.plist"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B75796CF88943841F6213B8E26267EB4 /* Pods-record-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-record-frameworks.sh"; sourceTree = "<group>"; };
+		BC0ACD85D1B8518964410CA133A0348F /* NMCLiveStreaming.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMCLiveStreaming.xcconfig; sourceTree = "<group>"; };
+		C06927C155F2F37C8AD5EF56A2D6F475 /* NELivePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NELivePlayer.xcconfig; sourceTree = "<group>"; };
+		C41420E30EAAEE9A18749F036E9A4534 /* Pods-record.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-record.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B51C98D7BDABF0864A4589080BF4C7 /* Pods-record-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-record-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C79D96B4C79DF6876C188EDBA02C30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CB6F0DCD66E9338356E525F49997CB2 /* NMCLiveStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				BE6F9F7CF251A9889110EDF3697BDBA7 /* Frameworks */,
+				3E98B88764C82FDD93263323E4041E92 /* Resources */,
+				4959BA1536DD38A441223847329BF1A2 /* Support Files */,
+			);
+			name = NMCLiveStreaming;
+			path = NMCLiveStreaming;
+			sourceTree = "<group>";
+		};
+		1FFE895C2AA52DDAA967D3CB308B1E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17A43A121AF47E56D2B80D8C355B9294 /* NELivePlayerFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D68F73AEC128C3852C93B45315C86AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06927C155F2F37C8AD5EF56A2D6F475 /* NELivePlayer.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NELivePlayer";
+			sourceTree = "<group>";
+		};
+		3E98B88764C82FDD93263323E4041E92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72132E46BEA6027C74FA3953C1281B8C /* NMCVideoFilter.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4959BA1536DD38A441223847329BF1A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0ACD85D1B8518964410CA133A0348F /* NMCLiveStreaming.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMCLiveStreaming";
+			sourceTree = "<group>";
+		};
+		7190575BA27DB801E43C7C770C8C7522 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82C2AEB9512D2D3AC2579BA58C0AC2A /* Pods-record */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				B7EA1359B0ABE45082216D4536701C00 /* Pods */,
+				93382924D5E385A5EF268974718C034D /* Products */,
+				7190575BA27DB801E43C7C770C8C7522 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93382924D5E385A5EF268974718C034D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F09EA25021EC3956DA604202B420DD3 /* libPods-record.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82C2AEB9512D2D3AC2579BA58C0AC2A /* Pods-record */ = {
+			isa = PBXGroup;
+			children = (
+				67DB8482339638F19353B2F22D244420 /* Pods-record-acknowledgements.markdown */,
+				ADF7420C3AC1B20504D1EFB974BE66C4 /* Pods-record-acknowledgements.plist */,
+				F8B51C98D7BDABF0864A4589080BF4C7 /* Pods-record-dummy.m */,
+				B75796CF88943841F6213B8E26267EB4 /* Pods-record-frameworks.sh */,
+				25C90708A99BAEDF4F58AE2E7F68AF4F /* Pods-record-resources.sh */,
+				C41420E30EAAEE9A18749F036E9A4534 /* Pods-record.debug.xcconfig */,
+				32F4F706743353AD5C4BA8E7D4D56ADE /* Pods-record.release.xcconfig */,
+			);
+			name = "Pods-record";
+			path = "Target Support Files/Pods-record";
+			sourceTree = "<group>";
+		};
+		B7EA1359B0ABE45082216D4536701C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F14270FF3DECDA82CF1B17ECBC35CBBD /* NELivePlayer */,
+				1CB6F0DCD66E9338356E525F49997CB2 /* NMCLiveStreaming */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE6F9F7CF251A9889110EDF3697BDBA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB5D8299394C6E2C234FD10BB33F778 /* NMCLiveStreaming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F14270FF3DECDA82CF1B17ECBC35CBBD /* NELivePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1FFE895C2AA52DDAA967D3CB308B1E2E /* Frameworks */,
+				2D68F73AEC128C3852C93B45315C86AB /* Support Files */,
+			);
+			name = NELivePlayer;
+			path = NELivePlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		686CC3872AF565E6766EB7D51C1E58D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E531D9B3DE7D5B118D2B2F3B9F8CF345 /* Pods-record */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49301D2A7875194AA508FF6F51D9204 /* Build configuration list for PBXNativeTarget "Pods-record" */;
+			buildPhases = (
+				686CC3872AF565E6766EB7D51C1E58D3 /* Headers */,
+				53FEC394B9B09578B89A8EA11E443B68 /* Sources */,
+				1C79D96B4C79DF6876C188EDBA02C30E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE3A583DE35BA6DD502CEF1AAA9AC31 /* PBXTargetDependency */,
+				AE6E30570A50A025A634E9E480DD3352 /* PBXTargetDependency */,
+			);
+			name = "Pods-record";
+			productName = "Pods-record";
+			productReference = 2F09EA25021EC3956DA604202B420DD3 /* libPods-record.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93382924D5E385A5EF268974718C034D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7D233AFF906685CCB4A2AA48CD2FD0 /* NELivePlayer */,
+				A2428B8BA54B8374022EDD41143A8642 /* NMCLiveStreaming */,
+				E531D9B3DE7D5B118D2B2F3B9F8CF345 /* Pods-record */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FEC394B9B09578B89A8EA11E443B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F0383389B2264472D8151DD19B029D /* Pods-record-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE3A583DE35BA6DD502CEF1AAA9AC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NELivePlayer;
+			target = 5A7D233AFF906685CCB4A2AA48CD2FD0 /* NELivePlayer */;
+			targetProxy = ADBAC0F31087C11A35015529C0298B83 /* PBXContainerItemProxy */;
+		};
+		AE6E30570A50A025A634E9E480DD3352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMCLiveStreaming;
+			target = A2428B8BA54B8374022EDD41143A8642 /* NMCLiveStreaming */;
+			targetProxy = C299FA93BD308AB081F7E44BAAEE858B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DD8D0E95F4D4D0F6A16A5FBC310874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F4F706743353AD5C4BA8E7D4D56ADE /* Pods-record.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3986FEFA34E6F349E8EF5648C57A745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06927C155F2F37C8AD5EF56A2D6F475 /* NELivePlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A023A5496D91324FF1910A3D2BBEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41420E30EAAEE9A18749F036E9A4534 /* Pods-record.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9243E756ED29D6C63210E17B613C7317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0ACD85D1B8518964410CA133A0348F /* NMCLiveStreaming.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D50EE601B357A72C53737FD4FD9E196C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06927C155F2F37C8AD5EF56A2D6F475 /* NELivePlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B0EA39C11B6CC4586E6749611BEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0ACD85D1B8518964410CA133A0348F /* NMCLiveStreaming.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218DDD5C03EF114C71331600BB24FB02 /* Build configuration list for PBXAggregateTarget "NMCLiveStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9243E756ED29D6C63210E17B613C7317 /* Debug */,
+				D6B0EA39C11B6CC4586E6749611BEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC0D9568E78CB3978DD6673818742D0 /* Build configuration list for PBXAggregateTarget "NELivePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3986FEFA34E6F349E8EF5648C57A745A /* Debug */,
+				D50EE601B357A72C53737FD4FD9E196C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49301D2A7875194AA508FF6F51D9204 /* Build configuration list for PBXNativeTarget "Pods-record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A023A5496D91324FF1910A3D2BBEA7 /* Debug */,
+				02DD8D0E95F4D4D0F6A16A5FBC310874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
