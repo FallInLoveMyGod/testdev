@@ -21,6 +21,7 @@
     UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navc;
     [self.window makeKeyAndVisible];
+    // abcd dedede
     return YES;
 }
 
